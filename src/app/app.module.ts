@@ -16,6 +16,9 @@ import { ProductService } from "./services/product.service";
 import { HttpConfigInterceptor } from './interceptor/httpconfig.interceptor';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { ToastrModule } from 'ngx-toastr';
+import { Category1Component } from './components/category1/category1.component';
+import { Category2Component } from './components/category2/category2.component';
+import { Category3Component } from './components/category3/category3.component';
 
 
 
@@ -28,7 +31,10 @@ import { ToastrModule } from 'ngx-toastr';
     FooterComponent,
     HomeComponent,
     ProductComponent,
-    ThankyouComponent
+    ThankyouComponent,
+    Category1Component,
+    Category2Component,
+    Category3Component
   ],
   imports: [
     BrowserModule,
