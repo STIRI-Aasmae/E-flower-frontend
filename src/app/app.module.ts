@@ -19,6 +19,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { Category1Component } from './components/category1/category1.component';
 import { Category2Component } from './components/category2/category2.component';
 import { Category3Component } from './components/category3/category3.component';
+import { FormsModule } from "@angular/forms";
 
 
 
@@ -37,6 +38,7 @@ import { Category3Component } from './components/category3/category3.component';
     Category3Component
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     BrowserAnimationsModule,
     NoopAnimationsModule,
